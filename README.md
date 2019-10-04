@@ -1,7 +1,8 @@
 # Gruppe24 - Caeli
 
+Gruppeprosjekt i emnet [IN2000 Software Engineering ved Institutt for Informatikk, Universitetet i Oslo](https://www.uio.no/studier/emner/matnat/ifi/IN2000/), våren 2019 - karakter: A.
+
 Caeli er en applikasjon som lar deg sjekke luftkvaliteten i Norge her og nå, samt for opptil 24 timer fremover og bakover i tid.
-Applikasjonen er utviklet som et prosjekt i emnet IN2000 ved Institutt for Informatikk, Universitetet i Oslo.
 
 ## Laget med
 
