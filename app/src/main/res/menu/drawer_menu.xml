@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/menu">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_sok"
+              android:icon="@drawable/ic_search_grey"
+              android:title="@string/meny_search"/>
+        <item android:id="@+id/nav_showairquality"
+              android:icon="@drawable/ic_showairquality"
+              android:title="@string/meny_showairquality"/>
+        <item android:id="@+id/nav_map"
+              android:icon="@drawable/ic_map"
+              android:title="@string/meny_maps"/>
+        <item android:id="@+id/nav_infopage"
+              android:icon="@drawable/ic_infopage"
+              android:title="@string/meny_healthinfo"/>
+        <item android:id="@+id/nav_settings"
+              android:icon="@drawable/ic_settings"
+              android:title="@string/meny_settings"/>
+        <item android:id="@+id/nav_aboutus"
+              android:icon="@drawable/ic_aboutus"
+              android:title="@string/meny_aboutus"/>
+    </group>
+
+</menu>

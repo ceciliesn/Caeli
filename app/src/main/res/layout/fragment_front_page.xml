@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:orientation="vertical">
+
+    <TextView
+            style="?attr/text_grey"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_fp"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_green"
+                android:id="@+id/logo_gronn"
+                android:contentDescription="@string/logo_green"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_yellow"
+                android:id="@+id/logo_gul"
+                android:layout_marginStart="50dp"
+                android:contentDescription="@string/logo_yellow"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_red"
+                android:id="@+id/logo_rod"
+                android:layout_marginStart="100dp"
+                android:contentDescription="@string/logo_red"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_purple"
+                android:id="@+id/logo_lilla"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/logo_purple"/>
+
+    </RelativeLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="?attr/text_grey"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/fragment_info"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+            android:text="@string/get_started"
+            android:onClick="toLocation"
+            android:textSize="12sp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/btnToNotification"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/caeli_button"/>
+
+</LinearLayout>

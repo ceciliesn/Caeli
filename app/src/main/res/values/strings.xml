@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Caeli</string>
+    <string name="category_gb">Generell befolkning</string>
+    <string name="category_astma">Astma og andre luftveisplager</string>
+    <string name="category_hjerte">Hjerte- og karsykdom</string>
+    <string name="category_eldre">Eldre</string>
+    <string name="category_gravid">Gravide og barn</string>
+    <string name="aktivitet_anbefalt">Utendørs aktivitet anbefales.</string>
+    <string name="yellow_astma_hjerte">Utendørs aktivitet anbefales for de fleste. De som opplever forverring av symptomer
+        bør vurdere å redusere fysisk aktivitet i områder med mye trafikk eller andre høye utslipp.
+    </string>
+    <string name="yellow_eldre">Utendørs aktivitet anbefales for de fleste. De som opplever forverring av symptomer i
+        luftveiene eller hjerte- og karsystemet bør vurdere å redusere fysisk aktivitet i områder med mye trafikk eller
+        andre høye utslipp.
+    </string>
+    <string name="red_gb">Utendørs aktivitet anbefales vanligvis. Hvis du har symptomer som hoste eller sår hals
+        bør du vurdere å redusere utendørs fysisk aktivitet i de mest forurensede områdene.
+    </string>
+    <string name="red_astma">De som har alvorlig luftveissykdom eller opplever forverring av sin astma bør redusere
+        utendørs fysisk aktivitet og begrense oppholdstiden i de mest forurensede områdene.
+    </string>
+    <string name="red_hjerte">De som har alvorlig hjerte- og karsykdom bør redusere utendørs fysisk aktivitet og
+        begrense oppholdstiden i de mest forurensede områdene.
+    </string>
+    <string name="red_eldre">Utendørs fysisk aktivitet anbefales for mange. De med luftveis- eller hjerte- og karsykdom
+        bør redusere utendørs fysisk aktivitet og begrense oppholdstiden i de mest forurensede områdene.
+    </string>
+    <string name="red_gravid">Utendørs aktivitet anbefales for mange. Gravide og barn med luftveissymptomer bør
+        begrense oppholdstiden i de mest forurensede områdene.
+    </string>
+    <string name="purple_gb">Reduser utendørs fysisk aktivitet og begrens oppholdstiden i de mest forurensede
+        områdene, spesielt hvis du har symptomer som hoste eller sår hals.
+    </string>
+    <string name="purple_astma">De med astma og andre luftveissykdommer bør ikke oppholde seg i de mest forurensede
+        områdene.
+    </string>
+    <string name="purple_heart">De med hjerte- og karsykdom bør ikke oppholde seg i de mest forurensede områdene.
+    </string>
+    <string name="purple_eldre_gravid">Reduser utendørs fysisk aktivitet og begrense oppholdstiden i de mest forurensede
+        områdene.
+    </string>
+    <string name="info_caeli">
+        Caeli er en applikasjon som lar deg sjekke luftkvaliteten i Norge her og nå, samt for opptil 24 timer fremover og bakover i tid.
+        Applikasjonen er utviklet som et prosjekt i emnet IN2000 ved Institutt for Informatikk, Universitetet i Oslo.
+        Fremvist data er hentet fra MET Norway (https://api.met.no). Informasjon om helseråd, helserisiko og forurensningsnivåer er basert på
+        informasjon fra norske myndigheter (https://luftkvalitet.miljostatus.no). Stedsnavn er hentet fra Sentralt stedsnavnregister, eid av Kartverket (https://kartverket.no/data).
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="feedback1">Gi ros</string>
+    <string name="feedback2">Forslag til forbedringer</string>
+    <string name="feedback3">Melde feil</string>
+    <string name="feedback4">Øvrige henvendelser</string>
+    <string name="hint_stedsnavn">Skriv inn stedsnavn</string>
+    <string name="settings_info">Huk av for den eller de brukergruppene du ønsker å se helseråd for:</string>
+    <string name="settings_notification">Huk av for å motta push-varsler:</string>
+    <string name="tittel_maps">Kart</string>
+    <string name="tittel_search">Søk etter sted</string>
+    <string name="tittel_showairquality">Luftkvalitet</string>
+    <string name="tittel_settings">Innstillinger</string>
+    <string name="tittel_aboutus">Om oss</string>
+    <string name="tittel_healthinfo">Helseråd</string>
+    <string name="tittel_contactus">Kontakt oss</string>
+    <string name="meny_search">Søk</string>
+    <string name="meny_showairquality">Luftkvalitet hos deg</string>
+    <string name="meny_maps">Kart over stasjoner</string>
+    <string name="meny_healthinfo">Helseråd</string>
+    <string name="meny_settings">Innstillinger</string>
+    <string name="meny_aboutus">Om oss</string>
+    <string name="no_internet">Ingen internet tilkobling</string>
+    <string name="wrong_apicall">Ops noe gikk galt, prøv igjen</string>
+    <string name="no_location">Fant ikke lokasjon</string>
+    <string name="pollution_description_very_high">"Luftforurensning: Svært høy \nHelserisiko: Alvorlig"</string>
+    <string name="pollution_description_high">"Luftforurensning: Høy\nHelserisiko: Betydelig"</string>
+    <string name="pollution_description_moderat">"Luftforurensning: Moderat\nHelserisiko: Moderat"</string>
+    <string name="pollution_description_low">"Luftforurensning: Lite\nHelserisiko: Liten eller ingen"</string>
+    <string name="fn_lavt">Forurensningsnivå: lavt</string>
+    <string name="fn_moderat">Forurensningsnivå: moderat</string>
+    <string name="fn_hoyt">Forurensningsnivå: høyt</string>
+    <string name="fn_svaert_hoyt">Forurensningsnivå: svært høyt</string>
+    <string name="fragment_location">Kan jeg sykle i dag?</string>
+    <string name="fragment_location_description">Vi finner kvaliteten på luften, akkurat nå, akkurat der du er</string>
+    <string name="fragment_fp">Den eneste appen om luftkvalitet du trenger</string>
+    <string name="fragment_info">Opplev en ny måte å se luftkvalitet på! Fargene i appen representerer aktuelt forurensningsnivå; grønt - lavt, gult - moderat, rødt - høyt og lilla - svært høyt. Drar du den lille sirkelen på grafen på hovedsiden kan du se luftkvalitetsnivå 24 timer frem og 24 timer tilbake i tid.</string>
+    <string name="fragment_notification">Er det dårlig luft i dag?</string>
+    <string name="fragment_push">Vi vil sende deg pushvarsler dersom luftkvaliteten blir dårligere</string>
+    <string name="notification_yes">Ja, send notifications</string>
+    <string name="no_maybe">Nei takk, kanskje senere</string>
+    <string name="get_started">Kom i gang</string>
+    <string name="find_location">Finn min posisjon</string>
+    <string name="logo_green">Grønn logo</string>
+    <string name="logo_yellow">Gul logo</string>
+    <string name="logo_red">Rød logo</string>
+    <string name="logo_purple">Lilla logo</string>
+    <string name="helseraad">Helseråd</string>
+    <string name="content_clouds">Moving clouds, graphics from pngtree.com</string>
+    <string name="pollution_description">Colored image describing current air quality</string>
+    <string name="search_icon">Clickable icon, return to search</string>
+    <string name="about_us">Picture of two group members</string>
+    <string name="about_caeli">OM CAELI</string>
+    <string name="search_hint">Skriv inn stedsnavn</string>
+    <string name="caeli_logo">Caeli logo</string>
+    <string name="email_topic">Hva gjelder henvendelsen?</string>
+    <string name="email_name">Ditt navn:</string>
+    <string name="email_content">Din tilbakemelding:</string>
+    <string name="email_feedback">Ønsker du tilbakemelding på din henvendelse?</string>
+    <string name="email_send">Send mail</string>
+    <string name="push_on">Push-varsler</string>
+    <string name="refresh_icon">Clickable icon, refreshes activity</string>
+    <string name="gdpr">Applikasjonen er avhengig av telefonens posisjon for å kunne hente ut sanntidsdata om luftkvaliteten
+        i ditt område. Denne dataen sendes til Meteorologisk institutt sine tjenere.
+        Dataen blir lagret lokalt på din telefon og i en
+        fil i selve applikasjonen. Ved å ikke samtykke til deling av din posisjon vil du ikke få tilgang til all
+        funksjonalitet i applikasjonen. Lokasjonsdata vil ikke bli delt med eller solgt til øvrige tredjeparter.
+        Du kan når som helst trekke tilbake samtykke ved å fjerne applikasjonens tilgang til lokasjonsdata.
+        \n\nInnsamlet posisjonsdata vil bevares så
+        lenge applikasjonen er lastet ned på din telefon. Ved å avinstallere applikasjonen vil den bevarte
+        posisjonsdataen bli slettet.
+        \n\nMvh Caeli teamet,
+        \nkontaktcaeli@gmail.com</string>
+</resources>

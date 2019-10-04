@@ -1,0 +1,105 @@
+{
+  "listeAvHelseraad": [
+    {
+      "id" : "GB-gronn",
+      "title": "Generell befolkning",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },{
+      "id" : "GB-gul",
+      "title": "Generell befolkning",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },{
+      "id" : "GB-roed",
+      "title": "Generell befolkning",
+      "subtitle": "Utendørs aktivitet anbefales vanligvis. Hvis du har symptomer som hoste eller sår hals bør du vurdere å redusere utendørs fysisk aktivitet i de mest forurensede områdene."
+    },{
+      "id" : "GB-lilla",
+      "title": "Generell befolkning",
+      "subtitle": "Reduser utendørs fysisk aktivitet og begrens oppholdstiden i de mest forurensede områdene, spesielt hvis du har symptomer som hoste ellers sår hals."
+    },
+
+    {
+      "id" : "Astma-groen",
+      "title": "Astma og andre luftveissykdommer",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },
+    {
+      "id" : "Astma-gul",
+      "title": "Astma og andre luftveissykdommer",
+      "subtitle": "Utendørs aktivitet anbefales for de fleste. De som opplever forverring av luftveissymptomer bør vurdere å redusere fysisk aktivitet i områder med mye trafikk eller andre høye utslipp."
+    },
+    {
+      "id" : "Astma-roed",
+      "title": "Astma og andre luftveissykdommer",
+      "subtitle": "De som har alvorlig luftveissykdom eller opplever forverring av sin astma bør redusere utendørs fysisk aktivitet og begrense oppholdstiden i de mest forurensede områdene."
+    },
+    {
+      "id" : "Astma-lilla",
+      "title": "Astma og andre luftveissykdommer",
+      "subtitle": "De med astma og andre luftveissykdommer bør ikke oppholde seg i de mest forurensede områdene."
+    },
+
+    {
+      "id" : "Hjerte-gronn",
+      "title": "Hjerte- og karsykdommer",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },
+    {
+      "id" : "Hjerte-gul",
+      "title": "Hjerte- og karsykdommer",
+      "subtitle": "Utendørs aktivitet anbefales for de fleste. De som opplever forverring av symptomer bør vurdere å redusere fysisk aktivitet i områder med mye trafikk eller andre høye utslipp."
+    },{
+      "id" : "Hjerte-roed",
+      "title": "Hjerte- og karsykdommer",
+      "subtitle": "De som har alvorlig hjerte- og karsykdom bør redusere utendørs fysisk aktivitet og begrense oppholdstiden de mest forurensede områdene."
+    },
+    {
+      "id" : "Hjerte-lilla",
+      "title": "Hjerte- og karsykdommer",
+      "subtitle": "De med hjerte- og karsykdom bør ikke oppholde seg i de mest forurensede områdene."
+    },
+
+    {
+      "id" : "Eldre-gronn",
+      "title": "Eldre",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },
+    {
+      "id" : "Eldre-gul",
+      "title": "Eldre",
+      "subtitle": "Utendørs aktivitet anbefales for de fleste. De som opplever forverring av symptomer i luftveiene eller hjerte- og karsystemet bør vurdere å redusere fysisk aktivitet i områder med mye trafikk eller andre høye utslipp."
+    },
+    {
+      "id" : "Eldre-roed",
+      "title": "Eldre",
+      "subtitle": "Utendørs aktivitet anbefales for mange. De med luftveis- eller hjerte- og karsykdom bør redusere utendørs fysisk aktivitet og begrense oppholdstiden i de mest forurensede områdene."
+    },
+    {
+      "id" : "Eldre-lilla",
+      "title": "Eldre",
+      "subtitle": "Reduser utendørs fysisk aktivitet og begrens oppholdstiden i de mest forurensede områdene."
+    },
+
+    {
+      "id" : "Gravide-gronn",
+      "title": "Gravide og barn",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },
+    {
+      "id" : "Gravide-gul",
+      "title": "Gravide og barn",
+      "subtitle": "Utendørs aktivitet anbefales."
+    },
+    {
+      "id" : "Gravide-roed",
+      "title": "Gravide og barn",
+      "subtitle": "Utendørs aktivitet anbefales for mange. Gravide og barn med luftveissymptomer bør begrense oppholdstiden i de mest forurensede områdene."
+    },
+    {
+      "id" : "Gravide-lilla",
+      "title": "Gravide og barn",
+      "subtitle": "Reduser utendørs fysisk aktivitet og begrens oppholdstiden i de mest forurensede områdene."
+    }
+
+     ]
+}

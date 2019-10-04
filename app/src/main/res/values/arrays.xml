@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feedbacklist">
+        <item>@string/feedback1</item>
+        <item>@string/feedback2</item>
+        <item>@string/feedback3</item>
+        <item>@string/feedback4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#347588</color>
+    <color name="colorPrimaryDark">#707070</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="saqTextColor">#404040</color>
+
+    <color name="caeli_green">#557300</color>
+    <color name="caeli_red">#FF0000</color>
+    <color name="caeli_yellow">#F3A633</color>
+    <color name="caeli_purple">#730055</color>
+    <color name="caeli_red_light">#fd5555</color>
+    <color name="caeli_yellow_light">#fdc055</color>
+    <color name="caeli_green_light">#acc38d</color>
+    <color name="caeli_purple_light">#c68db2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#83B4C2</color>
+
+</resources>

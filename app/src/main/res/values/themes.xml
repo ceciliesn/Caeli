@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Caeli theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="pageBackground">@style/BlueBackground</item>
+        <item name="toolbar_style">@style/ToolbarTheme</item>
+        <item name="tb_font_grey_extralight">@style/GreyToolbarFont_extralight</item>
+        <item name="tb_font_white_extralight">@style/WhiteToolbarFont_extralight</item>
+        <item name="tb_font_grey">@style/GreyToolbarFont</item>
+        <item name="text_light">@style/WhiteText</item>
+        <item name="text_dark">@style/DarkText</item>
+        <item name="text_grey">@style/saqText</item>
+        <item name="spinner">@style/Spinner</item>
+        <item name="switch_color">@style/SwitchColors</item>
+        <item name="button_style">@style/Button</item>
+        <item name="emailBackground">@style/EmailBackground</item>
+        <item name="emailFont">@style/DarkText</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="checkbox">@style/Checkbox</item>
+        <item name="tableText">@style/TableText</item>
+        <item name="drawerText">@style/DrawerText</item>
+        <item name="table_green">@style/TableBGgreen</item>
+        <item name="table_yellow">@style/TableBGyellow</item>
+        <item name="table_red">@style/TableBGred</item>
+        <item name="table_purple">@style/TableBGpurple</item>
+        <item name="alert_style">@style/CaeliAlertDialogTheme</item>
+        <item name="no_action_bar">@style/NoActionBar</item>
+    </style>
+
+
+</resources>

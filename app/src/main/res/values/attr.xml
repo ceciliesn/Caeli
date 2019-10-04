@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Attributter som brukes videre i themes -->
+    <attr name="pageBackground" format="reference" />
+    <attr name="text_light" format="reference" />
+    <attr name="text_dark" format="reference" />
+    <attr name="text_grey" format="reference" />
+    <attr name="button_style" format="reference" />
+    <attr name="switch_color" format="reference" />
+    <attr name="spinner" format="reference" />
+    <attr name="toolbar_style" format="reference" />
+    <attr name="tb_font_grey_extralight" format="reference" />
+    <attr name="tb_font_white_extralight" format="reference" />
+    <attr name="tb_font_grey" format="reference" />
+    <attr name="emailBackground" format="reference" />
+    <attr name="emailFont" format="reference" />
+    <attr name="checkbox" format="reference" />
+    <attr name="tableText" format="reference" />
+    <attr name="drawerText" format="reference" />
+    <attr name="table_green" format="reference" />
+    <attr name="table_yellow" format="reference" />
+    <attr name="table_red" format="reference" />
+    <attr name="table_purple" format="reference" />
+    <attr name="alert_style" format="reference" />
+    <attr name="no_action_bar" format="reference" />
+</resources>
