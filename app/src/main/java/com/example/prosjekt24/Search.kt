@@ -36,7 +36,7 @@ class Search : GlobalClass() {
         }
     }
 
-    /*Setter opp nødvendige onclickListneres*/
+    /*Setter opp nødvendige onclickListeners*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_search)

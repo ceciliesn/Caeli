@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.HashMap
 
-/*Tar inn en cache for å skrive resultatet til, tar inn en client for å gjøre apikall, og et søkeord fra bruekr*/
+/*Tar inn en cache for å skrive resultatet til, tar inn en client for å gjøre apikall, og et søkeord fra bruker*/
 /*Gjør apicall med søkeord og legger resultatene inn i cache for senere bruk, returnerer om det gikk bra*/
 fun getLocationsForSearchWord(cache: Cache, client: OkHttpClient, searchWord : String) : Boolean {
     if(searchWord == "") {
@@ -90,12 +90,12 @@ fun getLocationsForSearchWord(cache: Cache, client: OkHttpClient, searchWord : S
     return true
 }
 
-/*Filtrerer stedsnavn som ikke er i norge og fylker, returnerer om det gikk bra*/
+/*Filtrerer stedsnavn som ikke er i Norge og fylker, returnerer om det gikk bra*/
 fun addToCache(navnType : String, kommunenavn : String) : Boolean {
     return navnType != "Fylke" && kommunenavn != "Utland" && kommunenavn != "Jan Mayen" && kommunenavn != "Svalbard"
 }
 
-/*Tar in cache for å skrive resultater, og en clinet for apikall*/
+/*Tar inn cache for å skrive resultater, og en client for apikall*/
 /*Henter alle stasjoner fra api og legger inn i cachen, returnerer om det gikk bra*/
 fun getStationsLocations(cache : Cache, client: OkHttpClient) : Boolean {
     val url = "https://in2000-apiproxy.ifi.uio.no/weatherapi/airqualityforecast/0.1/stations"
@@ -138,7 +138,7 @@ fun getStationsLocations(cache : Cache, client: OkHttpClient) : Boolean {
     return true
 }
 
-/*Tar inn en lokasjon, henter luftkvalitet for denne dagen og i går for den lokasjonen*/
+/*Tar inn en lokasjon, henter luftkvalitet for gjeldende dag og gårsdag for lokasjonen*/
 /*Tar inn en client for apikall, returnerer omo det gikk bra eller ikke*/
 fun getAirQuality(location : LocationCaeli, client: OkHttpClient) : Boolean {
         val url = location.getUrl()
@@ -157,8 +157,8 @@ fun getAirQuality(location : LocationCaeli, client: OkHttpClient) : Boolean {
         }
 }
 
-/*Gjør apikall og parser json og lager et nytt airquality objekt som legges inn i newAirquality*/
-/*Tar inn lokasjon og url for apicall smat client. returnerer om det gikk bra*/
+/*Gjør apikall og parser json og lager et nytt airquality-objekt som legges inn i newAirquality*/
+/*Tar inn lokasjon og url for apicall samt client. returnerer om det gikk bra*/
 private fun getAirQuality(location: LocationCaeli, client: OkHttpClient, url: String, newAirQuality : HashMap<String,AirQuality>) : Boolean {
     val request = Request.Builder()
         .addHeader("user-agent","gruppe24")

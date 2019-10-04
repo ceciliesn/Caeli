@@ -75,8 +75,8 @@ open class GlobalClass() : AppCompatActivity() {
         return activeNetworkInfo != null
     }
 
-    /*Tar inn en requestCode og overrider metoden for å selv kunne bestemme hvor brukeren skal bli sent*/
-    /*Spør om GPS før en aktivitet som trenger GPS starter hvis det ikke er tillat*/
+    /*Tar inn en requestCode og overrider metoden for å selv kunne bestemme hvor brukeren skal bli sendt*/
+    /*Spør om GPS før en aktivitet som trenger GPS starter hvis det ikke er tillatt*/
     /*Sender med flagg til ny aktivitet*/
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
@@ -250,7 +250,7 @@ open class GlobalClass() : AppCompatActivity() {
         drawer.closeDrawer(GravityCompat.START, false)
     }
 
-    /*Er et statisk objekt slik at vi kan legge inn globalke verdier som alle kan bruke*/
+    /*Er et statisk objekt slik at vi kan legge inn globale verdier som alle kan bruke*/
     companion object  {
         private lateinit var locationManager : LocationManager
 

@@ -9,7 +9,7 @@ import android.support.v7.widget.SwitchCompat
 
 class Settings : GlobalClass() {
 
-    /*Passer på at notifikasjons ikke blir skrudd på hvis brukeren ikke godtar stedstjeneste*/
+    /*Passer på at notifikasjoner ikke blir skrudd på hvis brukeren ikke godtar stedstjeneste*/
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
 
@@ -81,7 +81,7 @@ class Settings : GlobalClass() {
         }
     }
 
-    /*Når man trykker på en switch lagrer vi den nye staten i sharedPrefrences og kaller på setAlarm hvis notifikasjons switchen har blitt endret*/
+    /*Når man trykker på en switch lagrer vi den nye staten i sharedPrefrences og kaller på setAlarm hvis notifikasjonsswitchen har blitt endret*/
     private fun saveData(switchNames :MutableList<String>, list : MutableList<SwitchCompat>){
         val sharedPreferences = getSharedPreferences(SHARED_PREFS_SETTINGS, Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()

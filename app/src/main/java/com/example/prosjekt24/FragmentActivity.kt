@@ -55,7 +55,7 @@ class FragmentActivity : GlobalClass() {
         container.setCurrentItem(1,true)
     }
 
-    /*Sjeklker om bruker tillater gps og setter notification og sender bruker til neste aktivitet*/
+    /*Sjekker om bruker tillater gps og setter notification og sender bruker til neste aktivitet*/
     fun setNotification(v : View) {
         if(checkLocationPermissionAndPromptResponse(this,100)) {
             val intent = Intent(this, ShowAirQuality::class.java)
@@ -68,7 +68,7 @@ class FragmentActivity : GlobalClass() {
         }
     }
 
-    /*Sender bruker til søk hvis gps ikke er tillat ellers til showAirQuality*/
+    /*Sender bruker til søk hvis gps ikke er tillatt ellers til showAirQuality*/
     fun toSearch(v : View) {
         if(checkLocationPermission(this)) {
             val intent = Intent(this, ShowAirQuality::class.java)

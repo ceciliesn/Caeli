@@ -58,7 +58,7 @@ class ContactUs : GlobalClass() {
 
     }
 
-    /*Tar inn input fra bruker og sender brukeren til enhetens mail tjeneste*/
+    /*Tar inn input fra bruker og sender brukeren til enhetens mailtjeneste*/
     private fun sendMail(){
         //sender e-post ved knappeklikk
         btnOK.setOnClickListener {

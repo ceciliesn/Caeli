@@ -26,7 +26,7 @@ data class LocationCaeli(val lat : Double,
     }
 
     /*Returnerer et par med om det gikk bra og luftkvaliteten for en gitt tid*/
-    /*Hvis lufkvaliteten trenger oppdatering gjøres det først hvis enheten har nett*/
+    /*Hvis luftkvaliteten trenger oppdatering gjøres det først når enheten har nett*/
     fun getAirQuality(tid : Int, hasInternet : Boolean = false) : Pair<Boolean, AirQuality?> {
         val time = getTimeString(tid)
 
@@ -51,7 +51,7 @@ data class LocationCaeli(val lat : Double,
         lastUpdated = dateNow
     }
 
-    /*Henter tiden fra enheten og sjekker om det har gått mer enn et døgn siden sist oppdatering*/
+    /*Henter tiden fra enheten og sjekker om det har gått mer enn et døgn siden forrige oppdatering*/
      private fun needsUpdate() : Boolean {
          val dateNow = Calendar.getInstance().time
          if(!hasAirQuality()) {
@@ -65,8 +65,8 @@ data class LocationCaeli(val lat : Double,
         return diffHours > 24
     }
 
-    /*Rturnerer formatert streng med tiden, med tid som offset*/
-    /*24 er santid, 0 er samme tid i går og 48 er samme tid i morgen*/
+    /*Returnerer formatert streng med tiden, med tid som offset*/
+    /*24 er sanntid, 0 er samme tid i går og 48 er samme tid i morgen*/
     private fun getTimeString(tid : Int) : String {
         val nyDate = lastUpdated.time + 3600 * 1000 * (tid - GRAPH_MAX_VALUE/2)
         val yrString = SimpleDateFormat("yyyy-MM-dd'T'HH':00:00Z'", Locale.ENGLISH)
@@ -116,7 +116,7 @@ data class Cache(val locations : HashMap<String,LocationCaeli>,
     }
 
     /*legger til location fra GPS*/
-    /*Tar inn de nødvendige parameterene som trengs for å lage et lokasjons objekt*/
+    /*Tar inn de nødvendige parameterene som trengs for å lage et lokasjonsobjekt*/
     fun addLocation(lat : Double, lon : Double, name : String, county : String, type : String, nameType: String, airQuality : HashMap<String, AirQuality>) : LocationCaeli {
         val id = name + county + nameType
         lateinit var location : LocationCaeli
@@ -133,7 +133,7 @@ data class Cache(val locations : HashMap<String,LocationCaeli>,
     }
 
     /*legger til location fra søkeord*/
-    /*Tar inn de nødvendige parameterene som trengs for å lage et lokasjons objekt*/
+    /*Tar inn de nødvendige parameterene som trengs for å lage et lokasjonsobjekt*/
     fun addLocation(searchWord : String, lat : Double, lon : Double, name : String, county : String, type : String, nameType: String, airQuality : HashMap<String, AirQuality>) {
 
         val location = addLocation(lat,lon,name,county,type,nameType,airQuality)

@@ -51,7 +51,7 @@ class NotificationReceiver : BroadcastReceiver() {
 
     }
 
-    /*henter ny luftkvalitet data fra LocationCaeli objektet*/
+    /*henter ny luftkvalitet data fra LocationCaeli-objektet*/
     fun updateAirQuality(context: Context, intent: Intent) {
         if (latestLocation == null) return
 
